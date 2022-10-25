@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Module 3</title>
+<!-- 
+Magazee Template 
+http://www.templatemo.com/tm-514-magazee
+-->
+  <!-- load CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">    <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">                                        <!-- https://getbootstrap.com/ -->
+  <link rel="stylesheet" href="css/templatemo-style.css">                                     <!-- Templatemo style -->
+
+  <script>
+    var renderPage = true;
+
+    if(navigator.userAgent.indexOf('MSIE')!==-1
+      || navigator.appVersion.indexOf('Trident/') > 0){
+        /* Microsoft Internet Explorer detected in. */
+        alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+        renderPage = false;
+    }
+  </script>
+
+</head>
+
+<body>
+  <!-- Loader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+ <div class="container">
+
+  <!-- 1st section -->
+  <section class="row tm-section">
+   <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+    <div class="tm-flex-center p-5 tm-bg-color-primary tm-section-min-h">
+      <h4 class="tm-text-color-white tm-site-name" style="color: white;">MODULE 3<br><br> Intra and Inter College Events</h4>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+    <div class="tm-flex-center p-5">
+      <q class="tm-quote tm-text-color-blue">“Competing at the highest level is not about winning. It’s about preparation, courage, understanding and nurturing your people, and heart. Winning is the result.”.</q>
+    </div>
+  </div>
+</section>
+
+<!-- 2nd section -->
+<section class="row tm-section tm-col-md-reverse">
+ <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+  <div class="tm-flex-center p-5">
+    <div class="tm-md-flex-center">
+      <h2 class="tm-text-color-blue">SPORTS EVENTS<br><br>1. Zonel Level <br>     2. Divisional Level<br>3. District Level<br>4. State Level<br>5. National Level</h2>
+      <h5 class="mb-4"><br>It’s not the will to win that matters—everyone has that. It’s the will to prepare to win that matters.</h5>
+      <a href="#" class="btn btn-primary float-lg-right tm-md-align-center">Lets Start</a>
+    </div>
+  </div>
+</div>
+<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+  <div class="tm-flex-center p-5 tm-bg-color-primary">
+    <div class="tm-max-w-400 tm-flex-center tm-flex-col">
+      <img src="image-04.jpg" alt="Image" class="img-fluid">
+      <p class="tm-text-color-white small tm-font-thin mb-0" style="color: white;"><br>Continuous effort — not strength or intelligence — is the key to unlocking our potential. </p> 
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- 3rd Section -->
+<section class="row tm-section tm-mb-30">
+  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 text-center">
+    <img src="image-01.jpg" alt="Image" class="img-fluid">
+  </div>
+  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+    <div class="tm-flex-center p-5">
+      <div class="tm-flex-center tm-flex-col">
+        <h2 class="tm-align-left">SYMPOSIUM</h2>
+        <p>Technical Events<br> Non-technical Events <br> Cultural Events<br><br> <a href="https://www.facebook.com/templatemo" target="_parent">"Its time to fly high"</a></p>
+        <a href="#" class="btn btn-primary">Lets Start</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4th Section -->
+<section class="row tm-section tm-mb-30">
+ <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+  <div class="tm-flex-center pl-5 pr-5 pt-5 pb-5">
+    <div class="tm-md-flex-center">
+     <h2 class="mb-4 tm-text-color-blue">INTRA COLLEGE EVENTS</h2>
+     <p><br>Webinars<br>Training<br>Flash Mob</p>
+     <p class="mb-4">Annual day <br>Sports day <br>Festival Celebration <br> Musical Events <br> Graduation day<br></p>
+     <p class="mb-4">Alumini meets <br> Freshers Welcoming <br></p>
+     <a href="#" class="btn btn-primary float-lg-right tm-md-align-center">Lets Start</a>
+   </div>
+ </div>
+</div>
+<div class="col-sm-30 col-md-12 col-lg-4 col-xl-4 text-xl-right text-md-center text-center mt-5 mt-lg-0 pr-lg-0">
+ <img src="image-02.jpg" alt="" class="img-fluid" height="800px" width="300px">
+</div>
+</section>
+
+
+  </div>
+ 
+  </div>
+</section>
+
+<!-- Footer -->
+<div class="row">
+  <div class="col-lg-12">
+    <p class="text-center small tm-copyright-text mb-0" style="color: black;"><b>Copyright &copy; <span class="tm-current-year">2022</span> Chronicles Of Stack | <a href="mailto:chronicalofstack@2020.com" style="color: white;">chroniclesofstack@2020.com</a></b></p>
+  </div>
+</div>
+</div>
+
+
+<!-- load JS -->
+<script src="js/jquery-3.2.1.slim.min.js"></script>         <!-- https://jquery.com/ -->
+<script>
+
+  /* DOM is ready
+  ------------------------------------------------*/
+  $(function(){
+
+    if(renderPage) {
+      $('body').addClass('loaded');
+    }
+
+    $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
+  });
+
+</script>
+
+</body>
+</html>
